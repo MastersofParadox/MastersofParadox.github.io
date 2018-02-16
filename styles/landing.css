@@ -34,7 +34,7 @@ nav {
    bottom:   0;
    color:    #ddd;
    margin:   auto;
-   position: fixed;
+   position: sticky;
    width:    100%;
    height:   10%;
 }
