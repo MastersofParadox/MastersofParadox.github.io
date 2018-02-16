@@ -20,6 +20,7 @@ a {
 body {
    background:      #fff url("../background.jpeg") no-repeat;
    background-size: cover;
+   display:         block;
    overflow:        hidden;
 }
 
