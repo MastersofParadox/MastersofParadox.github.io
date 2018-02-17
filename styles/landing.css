@@ -19,7 +19,7 @@ a {
 
 body {
    background:      #fff url("../background.jpeg") no-repeat;
-   background-size: cover;
+   background-size: 101%;
    display:         block;
    overflow-x:      hidden;
    position:        fixed;
