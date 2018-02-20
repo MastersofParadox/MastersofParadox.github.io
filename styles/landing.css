@@ -6,7 +6,12 @@
    padding:    0;
 }
 
-html, body {
+html {
+   background:      #fff url("../background.jpeg") no-repeat;
+   background-size: cover;
+}
+
+html, body, #body {
    height: 100%;
    width:  100%;
 }
@@ -15,14 +20,6 @@ a {
    color:           inherit;
    text-align:      inherit;
    text-decoration: inherit;
-}
-
-body {
-   background:      #fff url("../background.jpeg") no-repeat;
-   background-size: cover;
-   display:         block;
-   overflow-x:      hidden;
-   position:        fixed;
 }
 
 header {
@@ -52,6 +49,12 @@ nav {
    margin-left: 25%;
 }
 
+#body {
+   display:         block;
+   overflow-x:      hidden;
+   position:        fixed;
+}
+
 #projects {
    margin-right:    25%;
    text-decoration: none;
@@ -69,7 +72,7 @@ nav {
    color: #fff;
 }
 
-#projects:hover .projects {
+#projects:hover .projects, #projects:target .projects {
    bottom:   110%;
    display:  block;
    margin:   auto;
