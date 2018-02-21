@@ -7,20 +7,30 @@
 }
 
 html {
-   background:      #fff url("../background.jpeg") no-repeat;
-   background-size: cover;
-   padding-bottom:  20px;
+   height: 100%;
 }
 
-html, body, #body {
-   height: 100%;
+html, body {
    width:  100%;
+}
+
+body {
+   display:    block;
+   min-height: 100%;
+   overflow:   hidden;
+   position:   fixed;
 }
 
 a {
    color:           inherit;
    text-align:      inherit;
    text-decoration: inherit;
+}
+
+body {
+   background:      #fff url("../background.jpeg") no-repeat;
+   background-size: cover;
+   padding-bottom:  20px;
 }
 
 header {
@@ -48,12 +58,6 @@ nav {
 
 #about {
    margin-left: 25%;
-}
-
-#body {
-   display:         block;
-   overflow-x:      hidden;
-   position:        fixed;
 }
 
 #projects {
