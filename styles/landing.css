@@ -39,7 +39,8 @@ h1, h2 {
    -webkit-user-select:   none;
    -khtml-user-select:    none;
    -moz-user-select:      none;
-   -ms-user-select:       none;}
+   -ms-user-select:       none;
+}
 
 header {
    margin-top: 5%;
