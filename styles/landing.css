@@ -61,11 +61,17 @@ nav {
 }
 
 #navigation > li {
-   display:    block;
-   float:      left;
-   font:       250% 'bebas_neueregular', sans-serif;
-   text-align: center;
-   width:      25%;
+   display:               block;
+   float:                 left;
+   font:                  250% 'bebas_neueregular', sans-serif;
+   text-align:            center;
+   user-select:           none;
+   width:                 25%;
+   -webkit-touch-callout: none;
+   -webkit-user-select:   none;
+   -khtml-user-select:    none;
+   -moz-user-select:      none;
+   -ms-user-select:       none;
 }
 
 #projectChroma, #projectRose {
