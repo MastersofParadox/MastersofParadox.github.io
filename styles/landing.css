@@ -93,9 +93,10 @@ nav {
 }
 
 #projects:hover .projects, #projects:target .projects {
-   bottom:                110%;
+   bottom:                100%;
    display:               block;
    margin:                auto;
+   padding-bottom:        2%;
    position:              absolute;
    user-select:           none;
    width:                 inherit;
