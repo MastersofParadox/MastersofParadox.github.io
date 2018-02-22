@@ -6,19 +6,19 @@
    padding:    0;
 }
 
-html {
+html, body, #body {
    height: 100%;
-}
-
-html, body {
    width:  100%;
 }
 
-body {
-   display:    block;
+body, #body {
    min-height: 100%;
-   overflow:   hidden;
-   position:   fixed;
+}
+
+#body {
+   display:  block;
+   overflow: hidden;
+   position: fixed;
 }
 
 a {
