@@ -10,11 +10,13 @@ html {
 }
 
 html, body {
+   height: 100%;
+   display: block;
 }
 
 body {
-   background:      #fff url("../background.jpeg") cover;
-   height: 100%;
+   background:      #fff url("../background.jpeg") 0 0/cover no-repeat;
+   min-height: 100%;
 }
 
 a {
