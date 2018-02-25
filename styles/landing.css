@@ -7,17 +7,21 @@
 }
 
 html {
-   background:      #fff url("../background.jpeg") 0 0/cover no-repeat;
-   height: 101%;
 }
 
 html, body {
 }
 
 body {
+}
+
+#wrapper {
+   position: fixed;
+   background: #fff url("../background.jpeg") 0 0/cover no-repeat;
+   height: 100%;
+   width: 100%;
    display: block;
    overflow: hidden;
-   height: 100%;
 }
 
 a {
