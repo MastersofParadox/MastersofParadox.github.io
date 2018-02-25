@@ -9,6 +9,7 @@
 html {
    background:      #fff url("../background.jpeg") no-repeat;
    background-size: cover;
+   height: 100%;
 }
 
 html, body {
