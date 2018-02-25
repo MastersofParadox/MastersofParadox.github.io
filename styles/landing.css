@@ -13,8 +13,7 @@ html, body {
 }
 
 body {
-   background:      #fff url("../background.jpeg") no-repeat;
-   background-size: cover;
+   background:      #fff url("../background.jpeg") cover;
    height: 100%;
 }
 
